@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Netflix-Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    color: #e50914;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    background: #b20710;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #b20710;
+}
+
+.login-box a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    color: #b20710;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #a59b9b;
+    text-decoration: none;
+}
+
+header nav .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header nav .search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+header nav .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #b21b07;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+header nav .logout {
+    margin-top: 5px ;
+    margin-left: 50;
+    padding: 5px 14px;
+    border: none;
+    border-radius: 99px;
+    background: #b20710;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+main {
+    padding: 10px;
+}
+
+main .featured,
+
+main .categories {
+    margin-bottom: 20px;
+}
+
+main .movies img {
+    width: 140px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+main .categories img {
+    width: 140px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.63);
+}
+
