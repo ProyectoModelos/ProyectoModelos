@@ -6,8 +6,8 @@ from mysql.connector import Error
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QPushButton, QFileDialog, QTextEdit, 
                              QVBoxLayout, QHBoxLayout, QWidget, QProgressBar, QMessageBox, 
                              QLabel, QGroupBox, QTableWidget, QTableWidgetItem, QHeaderView, QDialog, QDialogButtonBox)
-from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import QThread, pyqtSignal, Qt  # Asegúrate de importar Qt desde PyQt5.QtCore
+from PyQt5.QtGui import QIcon, QPixmap
+from PyQt5.QtCore import QThread, pyqtSignal, Qt
 
 # Función para conectar a la base de datos MySQL
 def create_connection(host_name, user_name, user_password, db_name):
@@ -38,23 +38,23 @@ def execute_query(connection, query):
 # Función para clasificar el texto extraído
 def classify_text(text):
     data = {
-        "name": None,
-        "date_of_birth": None,
-        "cell_number": None,
-        "email": None,
+        "nombre": None,
+        "fecha_nacimiento": None,
+        "telefono": None,
+        "correo": None,
         "fax": None,
         "id": None,
-        "languages": None
+        "idiomas": None
     }
     
     patterns = {
-        "name": r"(?i)(?:name|nombre):?\s*(.+)",
-        "date_of_birth": r"(?i)(?:date of birth|fecha de nacimiento):?\s*(\d{2}/\d{2}/\d{4})",
-        "cell_number": r"(?i)(?:cell|celular|phone|teléfono):?\s*(\+?\d[\d\s-]{7,})",
-        "email": r"(?i)(?:email|correo electrónico):?\s*([\w\.-]+@[\w\.-]+)",
+        "nombre": r"(?i)(?:name|nombre):?\s*(.+)",
+        "fecha_nacimiento": r"(?i)(?:date of birth|fecha de nacimiento):?\s*(\d{2}/\d{2}/\d{4})",
+        "telefono": r"(?i)(?:cell|celular|phone|teléfono):?\s*(\+?\d[\d\s-]{7,})",
+        "correo": r"(?i)(?:email|correo electrónico):?\s*([\w\.-]+@[\w\.-]+)",
         "fax": r"(?i)(?:fax):?\s*(\+?\d[\d\s-]{7,})",
         "id": r"(?i)(?:id|identificación|id_):?\s*(\w+)",
-        "languages": r"(?i)(?:languages|idiomas):?\s*(.+)"
+        "idiomas": r"(?i)(?:languages|idiomas):?\s*(.+)"
     }
     
     for key, pattern in patterns.items():
@@ -87,21 +87,21 @@ class PDFProcessThread(QThread):
                 classified_data = classify_text(text)
                 
                 # Preparar los datos para la inserción
-                name = classified_data["name"]
-                date_of_birth = classified_data["date_of_birth"]
-                if date_of_birth:
-                    date_of_birth = "-".join(reversed(date_of_birth.split("/")))  # Convertir a formato YYYY-MM-DD
-                cell_number = classified_data["cell_number"]
-                email = classified_data["email"]
+                nombre = classified_data["nombre"]
+                fecha_nacimiento = classified_data["fecha_nacimiento"]
+                if fecha_nacimiento:
+                    fecha_nacimiento = "-".join(reversed(fecha_nacimiento.split("/")))  # Convertir a formato YYYY-MM-DD
+                telefono = classified_data["telefono"]
+                correo = classified_data["correo"]
                 fax = classified_data["fax"]
                 id_doc = classified_data["id"]
-                languages = classified_data["languages"]
+                idiomas = classified_data["idiomas"]
                 
                 # Insertar datos en la base de datos
                 insert_text_query = f"""
-                INSERT INTO pdf_data (file_name, page_number, name, date_of_birth, cell_number, email, fax, id_doc, languages)
-                VALUES ('{self.pdf_path}', {page}, "{name}", "{date_of_birth}", "{cell_number}", "{email}", "{fax}", 
-                "{id_doc}", "{languages}")
+                INSERT INTO pdf_data (file_name, page_number, nombre, fecha_nacimiento, telefono, correo, fax, id_doc, idiomas)
+                VALUES ('{self.pdf_path}', {page}, "{nombre}", "{fecha_nacimiento}", "{telefono}", "{correo}", "{fax}", 
+                "{id_doc}", "{idiomas}")
                 """
                 execute_query(connection, insert_text_query)
                 
@@ -121,7 +121,7 @@ class PDFExtractorApp(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('PDF Data Extractor')
+        self.setWindowTitle('Extracto de Datos de PDF')
         self.setGeometry(100, 100, 800, 600)
 
         # Crear widget central y layout principal
@@ -132,11 +132,11 @@ class PDFExtractorApp(QMainWindow):
         pdf_group = QGroupBox("Operaciones de PDF")
         pdf_layout = QHBoxLayout()
 
-        self.selectButton = QPushButton('Selecciona el Archivo PDF', self)
+        self.selectButton = QPushButton('Seleccionar Archivo PDF', self)
         self.selectButton.setIcon(QIcon('icons/open.png'))  # Asegúrate de tener este icono
         self.selectButton.clicked.connect(self.selectPDF)
 
-        self.processButton = QPushButton('Procesar el PDF', self)
+        self.processButton = QPushButton('Procesar PDF', self)
         self.processButton.setIcon(QIcon('icons/process.png'))  # Asegúrate de tener este icono
         self.processButton.clicked.connect(self.processPDF)
 
@@ -154,15 +154,15 @@ class PDFExtractorApp(QMainWindow):
         # Tabla para mostrar datos
         self.dataTable = QTableWidget()
         self.dataTable.setColumnCount(10)  # Ajusta este número según las columnas que tengas
-        self.dataTable.setHorizontalHeaderLabels(["ID", "File", "Page", "Name", "DOB", "Phone", "Email", "Fax", "ID Doc", "Languages"])
+        self.dataTable.setHorizontalHeaderLabels(["ID", "Archivo", "Página", "Nombre", "Fecha de Nacimiento", "Teléfono", "Correo", "Fax", "ID Doc", "Idiomas"])
         
         # Botón para ver datos
-        self.viewDataButton = QPushButton('Ver los datos de la Base de datos', self)
+        self.viewDataButton = QPushButton('Ver Datos de la Base de Datos', self)
         self.viewDataButton.setIcon(QIcon('icons/view.png'))  # Asegúrate de tener este icono
         self.viewDataButton.clicked.connect(self.viewData)
 
         # Botón para preguntar si desea agregar otro archivo o salir
-        self.addAnotherButton = QPushButton('Agregar otro Archivo o Salir', self)
+        self.addAnotherButton = QPushButton('Agregar Otro Archivo o Salir', self)
         self.addAnotherButton.setIcon(QIcon('icons/question.png'))  # Asegúrate de tener este icono
         self.addAnotherButton.clicked.connect(self.askAddAnotherOrExit)
 
@@ -203,10 +203,10 @@ class PDFExtractorApp(QMainWindow):
 
     def selectPDF(self):
         options = QFileDialog.Options()
-        fileName, _ = QFileDialog.getOpenFileName(self, "Select PDF File", "", "PDF Files (*.pdf)", options=options)
+        fileName, _ = QFileDialog.getOpenFileName(self, "Seleccionar Archivo PDF", "", "PDF Files (*.pdf)", options=options)
         if fileName:
             self.pdfPath = fileName
-            QMessageBox.information(self, "File Selected", f"Archivo: {fileName}")
+            QMessageBox.information(self, "Archivo Seleccionado", f"Archivo: {fileName}")
 
     def processPDF(self):
         if not self.pdfPath:

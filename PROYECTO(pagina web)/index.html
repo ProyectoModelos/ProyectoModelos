@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracto de Datos de PDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AUTOMATIZACION DE PROCESOS ROBOTICOS: ROBOTS DIGITALES</h1>
+        <div class="pdf-operations">
+            <button id="selectButton">Seleccionar Archivo PDF</button>
+            <input type="file" id="pdfFileInput" style="display: none;">
+            <button id="processButton">Procesar PDF</button>
+        </div>
+        <progress id="progressBar" value="0" max="100"></progress>
+        <button id="viewDataButton">Ver Datos de la Base de Datos</button>
+        <button id="addAnotherButton">Agregar Otro Archivo o Salir</button>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Archivo</th>
+                    <th>Página</th>
+                    <th>Nombre</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Teléfono</th>
+                    <th>Correo</th>
+                    <th>Fax</th>
+                    <th>ID Doc</th>
+                    <th>Idiomas</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
