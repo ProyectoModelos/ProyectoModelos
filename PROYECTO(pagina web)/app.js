@@ -32,7 +32,7 @@ document.getElementById('processButton').addEventListener('click', () => {
     };
 
     xhr.onload = () => {
-        if (xhr.status === 200) {
+        if (xhr.status === 100) {
             alert('El PDF ha sido procesado exitosamente.');
         } else {
             alert('Hubo un error al procesar el PDF.');
