@@ -1,0 +1,1398 @@
+(['C:\\Users\\ACER 2023\\Documents\\Nueva carpeta\\ProyectoModelos\\app.py'],
+ ['C:\\Users\\ACER 2023\\Documents\\Nueva carpeta\\ProyectoModelos'],
+ [],
+ ['c:\\Users\\ACER 2023\\Documents\\Nueva '
+  'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'c:\\Users\\ACER 2023\\Documents\\Nueva '
+  'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ {},
+ [],
+ [],
+ False,
+ {},
+ 0,
+ [],
+ [],
+ '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('app',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva carpeta\\ProyectoModelos\\app.py',
+   'PYSOURCE')],
+ [('_pyi_rth_utils',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils.qt',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\qt.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\random.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\struct.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\token.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('PyQt5',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\__init__.py',
+   'PYMODULE'),
+  ('mysql',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.pooling',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\pooling.py',
+   'PYMODULE'),
+  ('mysql.connector.abstracts',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\abstracts.py',
+   'PYMODULE'),
+  ('mysql.connector.utils',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\utils.py',
+   'PYMODULE'),
+  ('mysql.connector.custom_types',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\custom_types.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\platform.py',
+   'PYMODULE'),
+  ('mysql.connector.types',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\types.py',
+   'PYMODULE'),
+  ('mysql.connector.tls_ciphers',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\tls_ciphers.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry.instrumentation',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\instrumentation.py',
+   'PYMODULE'),
+  ('mysql.connector.logger',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\logger.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry.constants',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\constants.py',
+   'PYMODULE'),
+  ('mysql.connector.conversion',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\conversion.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('mysql.connector.optionfiles',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\optionfiles.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('mysql.connector.errors',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\errors.py',
+   'PYMODULE'),
+  ('mysql.connector.locales',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\locales\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.dbapi',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\dbapi.py',
+   'PYMODULE'),
+  ('mysql.connector.constants',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\constants.py',
+   'PYMODULE'),
+  ('mysql.connector.charsets',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\charsets.py',
+   'PYMODULE'),
+  ('mysql.connector.connection',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.protocol',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\protocol.py',
+   'PYMODULE'),
+  ('mysql.connector.plugins.caching_sha2_password',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\plugins\\caching_sha2_password.py',
+   'PYMODULE'),
+  ('mysql.connector.plugins',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\plugins\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.opentelemetry.context_propagation',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\context_propagation.py',
+   'PYMODULE'),
+  ('mysql.connector.network',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\network.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\cursor.py',
+   'PYMODULE'),
+  ('mysql.connector.authentication',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\authentication.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('mysql.connector.connection_cext',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\connection_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor_cext',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.errorcode',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\errorcode.py',
+   'PYMODULE'),
+  ('mysql.connector.version',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\mysql\\connector\\version.py',
+   'PYMODULE'),
+  ('PyPDF2',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2.papersizes',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\papersizes.py',
+   'PYMODULE'),
+  ('PyPDF2.pagerange',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\pagerange.py',
+   'PYMODULE'),
+  ('PyPDF2.errors',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\errors.py',
+   'PYMODULE'),
+  ('PyPDF2._writer',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_writer.py',
+   'PYMODULE'),
+  ('PyPDF2.types',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\types.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._outline',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\_outline.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._data_structures',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\_data_structures.py',
+   'PYMODULE'),
+  ('PyPDF2.filters',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\filters.py',
+   'PYMODULE'),
+  ('PyPDF2.xmp',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\xmp.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._utils',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\_utils.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_codecs\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.zapfding',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_codecs\\zapfding.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.symbol',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_codecs\\symbol.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.std',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_codecs\\std.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.pdfdoc',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_codecs\\pdfdoc.py',
+   'PYMODULE'),
+  ('PyPDF2._codecs.adobe_glyphs',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_codecs\\adobe_glyphs.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._base',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\_base.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('PyPDF2.generic',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\__init__.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._rectangle',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\_rectangle.py',
+   'PYMODULE'),
+  ('PyPDF2.generic._annotations',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\generic\\_annotations.py',
+   'PYMODULE'),
+  ('PyPDF2.constants',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\constants.py',
+   'PYMODULE'),
+  ('PyPDF2._utils',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_utils.py',
+   'PYMODULE'),
+  ('PyPDF2._security',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_security.py',
+   'PYMODULE'),
+  ('PyPDF2._version',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_version.py',
+   'PYMODULE'),
+  ('PyPDF2._reader',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_reader.py',
+   'PYMODULE'),
+  ('PyPDF2._page',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_page.py',
+   'PYMODULE'),
+  ('PyPDF2._cmap',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_cmap.py',
+   'PYMODULE'),
+  ('PyPDF2._merger',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_merger.py',
+   'PYMODULE'),
+  ('PyPDF2._encryption',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyPDF2\\_encryption.py',
+   'PYMODULE')],
+ [('python312.dll',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtCore.pyd',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\QtCore.pyd',
+   'EXTENSION'),
+  ('PyQt5\\sip.cp312-win_amd64.pyd',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\sip.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtGui.pyd',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt5\\QtWidgets.pyd',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_mysql_connector.cp312-win_amd64.pyd',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\_mysql_connector.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\python3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\ACER '
+   '2023\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libmysql.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\libmysql.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'BINARY'),
+  ('libssl-3-x64.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\libssl-3-x64.dll',
+   'BINARY'),
+  ('libcrypto-3-x64.dll',
+   'c:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\libcrypto-3-x64.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\build\\app\\base_library.zip',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_da.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_de.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_it.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_he.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_es.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_en.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'C:\\Users\\ACER 2023\\Documents\\Nueva '
+   'carpeta\\ProyectoModelos\\.venv\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'DATA')])
