@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/patient.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/patient.js"></script>
+    <header>
+        <h1>
+            <div style="text-align: left; height: 40px; margin-top:auto; padding-top: 10px;">
+                <img src="LOGO-ANIVERSARIO-ESPE-SEDE.png" alt="Imagen 1" style="float: left;">
+                <img src="logoNeurologia.jpeg" alt="Imagen 2" style="float: right;">
+                </div>        
+            </div>
+        </h1>
+    </header>
+</head>
+<body>
+    <h5>
+    <div class="container">
+        <h1>Inicio</h1>
+        <form id="hasHistoryForm">
+            <label for="hasHistory">¿Tiene historia clínica?</label>
+            <select id="hasHistory" onchange="toggleForm()">
+                <option value="">Seleccione</option>
+                <option value="yes">Sí</option>
+                <option value="no">No</option>
+            </select>
+        </form>
+
+        <div id="historyForm" style="display: none;">
+            <h2>Historia Clínica</h2>
+            <form id="patientForm">
+                <label for="patientName">Nombre del paciente:</label>
+                <input type="text" id="patientName">
+
+                <label for="age">Edad:</label>
+                <input type="text" id="age">
+
+                <label for="gender">Género:</label>
+                <select id="gender">
+                    <option value="">Seleccione</option>
+                    <option value="male">Masculino</option>
+                    <option value="female">Femenino</option>
+                </select>
+
+                <h3>Síntomas</h3>
+                <label><input type="checkbox" name="symptom" value="PEM"> PEM</label>
+                <label><input type="checkbox" name="symptom" value="DES"> DES</label>
+                <label><input type="checkbox" name="symptom" value="LEN"> LEN</label>
+                <label><input type="checkbox" name="symptom" value="MOF"> MOF</label>
+                <label><input type="checkbox" name="symptom" value="REM"> REM</label>
+                <label><input type="checkbox" name="symptom" value="JUI"> JUI</label>
+                <label><input type="checkbox" name="symptom" value="CAM"> CAM</label>
+                <label><input type="checkbox" name="symptom" value="PER"> PER</label>
+                <label><input type="checkbox" name="symptom" value="PRO"> PRO</label>
+                <label><input type="checkbox" name="symptom" value="PAR"> PAR</label>
+                <label><input type="checkbox" name="symptom" value="DEL"> DEL</label>
+                <label><input type="checkbox" name="symptom" value="DEP"> DEP</label>
+                <label><input type="checkbox" name="symptom" value="ANS"> ANS</label>
+                <label><input type="checkbox" name="symptom" value="AGI"> AGI</label>
+                <label><input type="checkbox" name="symptom" value="ALI"> ALI</label>
+                <label><input type="checkbox" name="symptom" value="INS"> INS</label>
+                <label><input type="checkbox" name="symptom" value="INA"> INA</label>
+                <label><input type="checkbox" name="symptom" value="INM"> INM</label>
+                <label><input type="checkbox" name="symptom" value="INF"> INF</label>
+
+                <button type="button" onclick="calculateProgress()">Calcular Progreso</button>
+            </form>
+            <div id="result"></div>
+        </div>
+
+        <div id="newPatientForm" style="display: none;">
+            <h2>Nuevo Paciente</h2>
+            <form id="newPatientData">
+                <label for="idNumber">Cédula:</label>
+                <input type="text" id="idNumber">
+
+                <label for="fullName">Nombre completo:</label>
+                <input type="text" id="fullName">
+
+                <label for="previousConditions">Enfermedades previas:</label>
+                <input type="text" id="previousConditions">
+
+                <label for="phoneNumber">Número de teléfono:</label>
+                <input type="text" id="phoneNumber">
+
+                <label for="address">Dirección domiciliaria:</label>
+                <input type="text" id="address">
+
+                <label for="dob">Fecha de nacimiento:</label>
+                <input type="date" id="dob">
+
+                <button type="button" onclick="registerPatient()">Registrar Paciente</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal para mostrar información de síntomas -->
+    <div id="symptomModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSymptomModal()">&times;</span>
+            <h2>Información de Síntomas</h2>
+            <ul id="symptomList"></ul>
+        </div>
+    </div>
+
+    <!-- Botón para mostrar el modal -->
+    <button onclick="showSymptomInfo()">Mostrar Información de Síntomas</button>
+<footer>
+    <div class="footer-content">
+        <p><strong>Instituto Mexicano del Seguro Social. (2017).</strong> Guía de práctica clínica: Diagnóstico y tratamiento de la enfermedad de Alzheimer. Actualización 2017. 
+        <a href="https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GRR.pdf" target="_blank">https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GER.pdf</a></p>
+        
+        <p><strong>Instituto Mexicano del Seguro Social. (2017).</strong> Guía de práctica clínica: Diagnóstico y tratamiento de la enfermedad de Alzheimer. Actualización 2017. 
+        <a href="https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GRR.pdf" target="_blank">https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GRR.pdf</a></p>
+        
+        <p><strong>Gobierno de Colombia, Instituto de Evaluación Tecnológica en Salud. (2017).</strong> Guía de práctica clínica para el diagnóstico y tratamiento del trastorno neurocognoscitivo mayor (demencia) (Adopción). 
+        Sistema General de Seguridad Social en Salud – Colombia, Guía No 61. 
+        <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IETS/gpc-demencia-completa.pdf" target="_blank">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IETS/gpc-demencia-completa.pdf</a></p>
+            
+        
+        <p><strong>Parra-Anguita, L., & Pancorbo-Hidalgo, P. L. (2013). </strong> Guías de práctica clínica de cuidados a personas con Alzheimer y otras demencias: revisión de la literatura. Gerokomos, 24(4), RINCÓN CIENTÍFICO REVISIÓN. 
+            <a href="https://doi.org/10.4321/S1134-928X2013000400002" target="_blank">https://doi.org/10.4321/S1134-928X2013000400002</a></p>
+             
+    </div>
+</footer>
+</h5>
+</body>
+
+</html>
