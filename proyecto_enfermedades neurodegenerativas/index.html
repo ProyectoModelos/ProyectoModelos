@@ -10,12 +10,16 @@
     <script defer src="js/patient.js"></script>
     <header>
         <h1>
-            Universidad de las fuerzas armandas espe
+            <div style="text-align: left; height: 40px; margin-top:auto; padding-top: 10px;">
+                <img src="LOGO-ANIVERSARIO-ESPE-SEDE.png" alt="Imagen 1" style="float: left;">
+                <img src="logoNeurologia.jpeg" alt="Imagen 2" style="float: right;">
+                </div>        
+            </div>
         </h1>
     </header>
-    
 </head>
 <body>
+    <h5>
     <div class="container">
         <h1>Inicio</h1>
         <form id="hasHistoryForm">
@@ -95,13 +99,36 @@
         </div>
     </div>
 
-    <div id="symptomPopup" class="popup">
-        <div class="popup-content">
-            <span class="popup-close" onclick="closeSymptomPopup()">&times;</span>
+    <!-- Modal para mostrar información de síntomas -->
+    <div id="symptomModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSymptomModal()">&times;</span>
             <h2>Información de Síntomas</h2>
             <ul id="symptomList"></ul>
         </div>
     </div>
+
+    <!-- Botón para mostrar el modal -->
     <button onclick="showSymptomInfo()">Mostrar Información de Síntomas</button>
+<footer>
+    <div class="footer-content">
+        <p><strong>Instituto Mexicano del Seguro Social. (2017).</strong> Guía de práctica clínica: Diagnóstico y tratamiento de la enfermedad de Alzheimer. Actualización 2017. 
+        <a href="https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GRR.pdf" target="_blank">https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GER.pdf</a></p>
+        
+        <p><strong>Instituto Mexicano del Seguro Social. (2017).</strong> Guía de práctica clínica: Diagnóstico y tratamiento de la enfermedad de Alzheimer. Actualización 2017. 
+        <a href="https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GRR.pdf" target="_blank">https://www.imss.gob.mx/sites/all/statics/guiasclinicas/393GRR.pdf</a></p>
+        
+        <p><strong>Gobierno de Colombia, Instituto de Evaluación Tecnológica en Salud. (2017).</strong> Guía de práctica clínica para el diagnóstico y tratamiento del trastorno neurocognoscitivo mayor (demencia) (Adopción). 
+        Sistema General de Seguridad Social en Salud – Colombia, Guía No 61. 
+        <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IETS/gpc-demencia-completa.pdf" target="_blank">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IETS/gpc-demencia-completa.pdf</a></p>
+            
+        
+        <p><strong>Parra-Anguita, L., & Pancorbo-Hidalgo, P. L. (2013). </strong> Guías de práctica clínica de cuidados a personas con Alzheimer y otras demencias: revisión de la literatura. Gerokomos, 24(4), RINCÓN CIENTÍFICO REVISIÓN. 
+            <a href="https://doi.org/10.4321/S1134-928X2013000400002" target="_blank">https://doi.org/10.4321/S1134-928X2013000400002</a></p>
+             
+    </div>
+</footer>
+</h5>
 </body>
+
 </html>

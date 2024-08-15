@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <header>
+        <h1>
+            <div >
+                <img src="LOGO-ANIVERSARIO-ESPE-SEDE.png" alt="Imagen 1" style="float: left;">
+                <img src="logoNeurologia.jpeg" alt="Imagen 2" style="float: right;">
+            </div>
+        </h1>
+    </header>
+</head>
+<body>
+    <div style="background-image: url('background.jpeg'); background-size: cover;">
+        <!-- Contenido del div -->
+    </div>
+    
+    
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form id="loginForm">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+
+            <button type="button" onclick="login()">Ingresar</button>
+        </form>
+    </div>
+
+    <script>
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === 'admin' && password === 'admin') {
+                window.location.href = 'index.html';
+            } else {
+                alert('Usuario o contraseña incorrectos.');
+            }
+        }
+    </script>
+</body>
+</html>
