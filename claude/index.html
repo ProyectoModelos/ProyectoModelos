@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude UI Clone</title>
+    <link rel="icon" href="icons/Mlaphitewasap.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="icons/claude_logo.svg" alt="Claude Logo">
+            </div>
+            <div class="header-text">
+                <p>&nbsp Using limited free plan. <a href="https://claude.ai/upgrade" style="color: rgba(255, 166, 0, 0.719); text-decoration: none;">Upgrade</a></p>
+            </div>
+        </div>
+        <div class="main">
+            <h1 id="greeting">Good evening, <span></span></h1>
+            <div class="input-container">
+                <input type="text" id="user-question" placeholder="How can Claude help you today?">
+                <button id="send-button">Send</button>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Provide Stakeholder Perspective</h3>
+                    <p>Collaborate with Claude for enhanced discussions</p>
+                </div>
+                <div class="card">
+                    <h3>Extract Insights from Report</h3>
+                    <p>Analyze and summarize key points</p>
+                </div>
+                <div class="card">
+                    <h3>Polish Your Prose</h3>
+                    <p>Refine and elevate your writing style</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Screen -->
+    <div class="new-screen hidden">
+        <div class="chat-container">
+            <h1>Chat</h1>
+            <div id="chat-box"></div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-message" placeholder="Escribe tu mensaje...">
+                <button id="send-chat-message">Enviar</button>
+            </div>
+        </div>
+        <a id="previous-questions-link" href="#">Ver preguntas previas</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

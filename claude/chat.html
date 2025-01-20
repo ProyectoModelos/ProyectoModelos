@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con Preguntas Preestablecidas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .chat-messages {
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+        }
+
+        .chat-messages .message {
+            margin-bottom: 10px;
+        }
+
+        .chat-messages .message.user {
+            text-align: right;
+        }
+
+        .chat-messages .message.bot {
+            text-align: left;
+            color: #f36a1b;
+        }
+
+        .chat-input {
+            display: flex;
+            border-top: 1px solid #ddd;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+
+        .chat-input button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .chat-input button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Chat con Preguntas Preestablecidas</div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí...">
+            <button onclick="handleUserInput()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        const predefinedQuestions = {
+            "hola": "¡Hola! ¿En qué puedo ayudarte?",
+            "¿cómo estás?": "Estoy aquí para ayudarte, ¿cómo puedo asistirte?",
+            "¿cuál es tu nombre?": "Soy un asistente virtual, ¿cómo puedo ayudarte hoy?",
+            "adiós": "¡Adiós! Que tengas un buen día."
+        };
+
+        const chatMessages = document.getElementById('chat-messages');
+
+        function addMessage(message, sender) {
+            const messageElement = document.createElement('div');
+            messageElement.className = `message ${sender}`;
+            messageElement.textContent = message;
+            chatMessages.appendChild(messageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function handleUserInput() {
+            const userInput = document.getElementById('user-input');
+            const message = userInput.value.trim().toLowerCase();
+
+            if (message) {
+                addMessage(userInput.value, 'user');
+                if (predefinedQuestions[message]) {
+                    addMessage(predefinedQuestions[message], 'bot');
+                } else {
+                    addMessage("Lo siento, no entiendo tu pregunta.", 'bot');
+                }
+            }
+
+            userInput.value = '';
+            userInput.focus();
+        }
+    </script>
+</body>
+</html>

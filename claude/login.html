@@ -1,0 +1,222 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Claude</title>
+        <link rel="icon" href="icons/Mlaphitewasap.png" type="image/png">
+        <link rel="stylesheet" href="login.css">
+        <style>
+    
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #aaa7a72c;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .login-container {
+                display: flex;
+                width: 80%;
+                max-width: 1200px;
+                background: rgba(214, 135, 135, 0.486);
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 20px rgba(255, 127, 7, 0.699);
+            }
+
+            .left-panel, .right-panel {
+                padding: 30px;
+            }
+
+            .left-panel {
+                flex: 1;
+                background-color: #ffffff;
+            }
+
+            .right-panel {
+                flex: 1;
+                background-color: #faf6f0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .logo {
+                display: block;
+                margin-bottom: 30px;
+            }
+
+            h1 {
+                font-size: 24px;
+                color: #333333cc;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                color: #666;
+            }
+
+            .or {
+                text-align: center;
+                margin: 20px 0;
+                font-size: 14px;
+                color: #aaa;
+            }
+
+        
+            select {
+                display: block;
+                width: 100%;
+                padding: 12px 15px;
+                font-size: 16px;
+                color: #333;
+                background: #f4f6fb;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                appearance: none; 
+                outline: none;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+
+            select:hover {
+                background: #eef1f7;
+                border-color: #bbb;
+            }
+
+            select:focus {
+                border-color: #666;
+                background: #eef1f7;
+            }
+
+            .email-login {
+                margin-top: 20px;
+                background-color: #ff7a59;
+                color: white;
+                border: none;
+                padding: 12px 20px;
+                font-size: 16px;
+                border-radius: 8px;
+                cursor: pointer;
+                width: 100%;
+                transition: background-color 0.3s ease;
+            }
+
+            .email-login:hover {
+                background-color: #e76a4d;
+            }
+
+            .terms {
+                margin-top: 20px;
+                font-size: 12px;
+                text-align: center;
+                color: #aaa;
+            }
+
+            .terms a {
+                color: #ff7a59;
+                text-decoration: none;
+            }
+
+            .terms a:hover {
+                text-decoration: underline;
+            }
+
+        
+            .report-card {
+                max-width: 80%;
+                background: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 15px rgba(255, 137, 3, 0.377);
+            }
+
+            .report-card p {
+                font-size: 14px;
+                color: #444;
+                margin-bottom: 15px;
+            }
+
+            .report {
+                font-size: 14px;
+                color: #666;
+            }
+
+            .report h2 {
+                font-size: 18px;
+                color: #333;
+                margin-bottom: 10px;
+            }
+
+            .overview {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+
+            .overview div {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="left-panel">
+                <img src="icons/claude_logo_login.svg" alt="Claude Logo" class="logo">
+                <h1>Your ideas, amplified</h1>
+                <p>Privacy-first AI that helps you create in confidence.</p>
+                <form id="login-form">
+                    <select id="user-select" required>
+                        <option value="" disabled selected></option>
+                        <option value="Joe ">Joe Alexander Gavilanes</option>
+                        <option value="Criss ">Criss Josue Armendariz</option>
+                        <option value="Bryan ">Bryan Joel Andrade</option>
+                        <option value="Marco">Marco</option>
+                    </select>
+                    <button type="submit" class="email-login">Log In</button>
+                </form>
+            </div>
+            <div class="right-panel">
+                <div class="report-card">
+                    <p><strong>Claude, create a report to analyze product usage and user feedback.</strong></p>
+                    <div class="report">
+                        <h2>Customer Insights Report</h2>
+                        <p>This report provides an analysis of customer feedback across various segments and time periods.</p>
+                        <div class="overview">
+                            <div><strong>Users</strong> <span>23,000</span></div>
+                            <div><strong>NPS Score</strong> <span>80</span></div>
+                            <div><strong>Projects</strong> <span>45</span></div>
+                            <div><strong>Notes</strong> <span>465</span></div>
+                        </div>
+                        <p><strong>Trend:</strong> Users are creating more notes over time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            
+            document.getElementById('login-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const selectedUser = document.getElementById('user-select').value;
+
+                if (selectedUser) {
+                    
+                    localStorage.setItem('loggedInUser', selectedUser);
+
+                    window.location.href = 'index.html';
+                } else {
+                    alert('Please select a user before continuing.');
+                }
+            });
+        </script>
+    </body>
+    </html>
